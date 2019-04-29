@@ -1,2 +1,2 @@
-# Moder Web Applications
+# Modern Web Applications
 Assignments for MWA
