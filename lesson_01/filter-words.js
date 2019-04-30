@@ -1,3 +1,6 @@
+// Try it at JsBin https://jsbin.com/bazojuj/32/edit?js,console
+
+
 // 1. Using ES6
 
 String.prototype.filterWords = function(words) {
