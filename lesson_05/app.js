@@ -6,6 +6,7 @@ const port = 3000;
 // Configurations
 app.disable('x-powered-by');
 app.enable('case sensitive routing');
+app.enable('strict routing');
 app.enable('trust proxy');
 
 const today = new Date(); // Server start time
