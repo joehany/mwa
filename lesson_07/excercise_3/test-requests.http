@@ -1,0 +1,27 @@
+POST http://localhost:4000/lectures HTTP/1.1
+content-type: application/json
+
+{
+    "course": "CS572",
+    "lecture": "Lecture 1 -- Revision"
+}
+
+
+
+GET http://localhost:4000/lectures HTTP/1.1
+
+
+PUT http://localhost:4000/lectures/5cd1fce8b6e8111352f46a15 HTTP/1.1
+content-type: application/json
+
+{
+    "course": "CS572",
+    "lecture": "Lecture 1 -- JS Revision"
+}
+
+
+DELETE  http://localhost:4000/lectures/5cd1fd0ab6e8111352f46a18 HTTP/1.1
+
+POST http://localhost:4000/search/Mongo
+
+
