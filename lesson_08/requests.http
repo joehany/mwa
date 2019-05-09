@@ -1,0 +1,38 @@
+POST http://localhost:4000/locations
+content-type: application/json
+
+{
+    "name": "Imperial Buffet",
+    "category": "Restaurant",
+    "coords": [-91.9672937, 41.008819]
+}
+
+
+POST http://localhost:4000/locations
+content-type: application/json
+
+{
+    "name": "Walmart",
+    "category": "Store",
+    "coords": [-91.9953418, 41.0076913]
+}
+
+POST http://localhost:4000/locations
+content-type: application/json
+
+{
+    "name": "Iowa Repair Shop",
+    "category": "Repair Shop",
+    "coords": [-91.9966292, 41.0109054]
+}
+
+POST http://localhost:4000/locations
+content-type: application/json
+
+{
+    "name": "Logli's Store",
+    "category": "Gas Station",
+    "coords": [-91.9692246, 41.0121214]
+}
+
+
